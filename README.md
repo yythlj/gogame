@@ -1,4 +1,4 @@
-* 简介
+## 简介
 基于开源大厅游戏框架pitaya，重写消息的Dispatch逻辑，使其成为可控go线程
 go线程之间通过事务管道，发送函数到对应携程执行，实现多线程下的无锁协作
 ref：https://github.com/topfreegames/pitaya
